@@ -1,30 +1,37 @@
-import { getFeaturedEvents } from '../helpers/api-utils'
-import EventList from '../components/events/event-list';
 import Head from 'next/head'
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import About from '../components/About';
 
 function HomePage(props) {
-
   return (
-    <div>
+    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y 
+    snap-mandatory overflow-scroll z-0">
       <Head>
-        <title>Next JS Events</title>
-        <meta name="description" content="Find a lot of great events that allow you to evolve..." />
+        <title>Kartik&apos;s Portfolio</title>
       </Head>
-      <EventList items={props.events} />
+
+     <Header />
+
+    {/* Hero */}
+    <section id="hero" className='snap-center'>
+      <Hero />
+    </section>
+
+    {/* About */}
+    <section id='about' className='snap-center'>
+      <About />
+    </section>
+
+    {/* Experience */}
+
+    {/* Skills */}
+
+    {/* Projects */}
+
+    {/* Contact Me */}
     </div>
-  );
+  );  
 }
 
 export default HomePage;
-
-export async function getStaticProps() {
-
-  const featuredEvents = await getFeaturedEvents();
-
-  return {
-    props: {
-      events: featuredEvents
-    },
-    revalidate: 1800
-  }
-}

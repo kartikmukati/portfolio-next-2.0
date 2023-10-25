@@ -9,14 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^10.16.4",
     "fs": "^0.0.1-security",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-simple-typewriter": "^5.0.1",
+    "react-social-icons": "^6.4.0",
     "swr": "^2.2.4"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.16",
     "eslint": "7.32.0",
-    "eslint-config-next": "13.4.19"
+    "eslint-config-next": "13.4.19",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
   }
 }
