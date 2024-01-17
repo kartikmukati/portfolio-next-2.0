@@ -34,7 +34,7 @@ export default function About({ }: Props) {
                     once: true
                 }}
                 src="/images/main-photo.jpg"
-                className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
+                className='mt-36 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
                 md:rounded-lg md:w-65 md:h-95 xl:w-[500px] xl:h-[600px]'
                
             />
@@ -42,13 +42,12 @@ export default function About({ }: Props) {
                 <h4 className='text-4xl font-semibold'>Here is a {" "}
                     <span className='underline decoration-[#F7AB0A]/50'>little</span>{" "} background</h4>
                 <p className='text-base'>
-                    I am a JavaScript Full Stack Web Developer with almost two years of experience, specializing in ReactJS, AngularJS, NodeJS, Python, Django, MongoDB, PostgreSQL and Java Script Frameworks/Libraries.
+                    I am a JavaScript Full Stack Web Developer with almost three of experience, specializing in ReactJS, NextJS, AngularJS, NodeJS, Python, Django, MongoDB, PostgreSQL and Java Script Frameworks/Libraries.
 
                     I have worked on enterprise-level web projects by providing solutions to help customer build and market their own web-based products.
 
                     I am skilled in the use of these frameworks to develop web applications based on Single Page Applications (SPA), Multi Page Applications (MPA) architectures.
                     I have developed and deployed many web applications utilizing various open-source packages.
-                    In addition to my development work, I am skilled in troubleshooting problems and resolving bugs within an existing system.
                 </p>
             </div>
         </motion.div>
